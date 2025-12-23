@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, papel, tesoura</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pedra, papel, tesoura</h1>
+
+        <div class="buttons">
+            <button id="rock" onclick="humanClicked('rock')">&#x1F44A;</button>
+            <button id="paper" onclick="humanClicked('paper')">&#x1f590;</button>
+            <button id="scissors" onclick="humanClicked('scissors')">&#x270c;</button>
+        </div>
+
+        <p class="result"></p>
+
+        <p>Sua pontuação: <span id="my-score">0</span></p>
+        <p>Pontuação da IA: <span id="score-machine">0</span></p>
+    </div>
+</body>
+<script src="./scripts.js"></script>
+</html>
